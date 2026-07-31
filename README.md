@@ -160,9 +160,9 @@ GET /api/health
 
 📢 Telegram Channel:
 
-<a href="https://t.me/GHOST_XMOD">
+<a href="https://t.me/GHOST_XOFC">
 
-<img src="https://img.shields.io/badge/Telegram-GHOST_XMOD-blue?style=for-the-badge&logo=telegram">
+<img src="https://img.shields.io/badge/Telegram-GHOST_XOFC-blue?style=for-the-badge&logo=telegram">
 
 </a>
 
