@@ -1,76 +1,90 @@
 # 🚀 FREE FIRE LIKE BOT API v2.0
 
-```{=html}
-<p align="center">
-```
-`<img src="https://img.shields.io/badge/FREE%20FIRE-LIKE%20BOT-orange?style=for-the-badge&logo=gamejolt">`{=html}
-`<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">`{=html}
-`<img src="https://img.shields.io/badge/Flask-API-black?style=for-the-badge&logo=flask">`{=html}
-`<img src="https://img.shields.io/badge/Version-2.0.0-success?style=for-the-badge">`{=html}
+<div align="center">
 
-```{=html}
-</p>
-```
+<img src="https://img.shields.io/badge/FREE%20FIRE-LIKE%20BOT-orange?style=for-the-badge&logo=gamejolt">
 
-------------------------------------------------------------------------
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
+
+<img src="https://img.shields.io/badge/Flask-API-black?style=for-the-badge&logo=flask">
+
+<img src="https://img.shields.io/badge/Version-2.0.0-success?style=for-the-badge">
+
+</div>
+
+---
 
 ## ⚡ About Project
 
-**FREE FIRE LIKE BOT API v2.0** একটি Advanced Flask Based API System.
+**FREE FIRE LIKE BOT API v2.0** is an advanced Flask based API system.
 
-Features: - 🔥 Smart Token Management - ⚡ Fast Account Rotation - 🔐
-AES Encryption System - 📦 Protobuf Processing - 🚀 Async Batch
-Processing - 🛡 Rate Limit Protection - 📊 API Statistics - 🔄 Automatic
-Token Refresh
+Built with powerful features:
 
-------------------------------------------------------------------------
+- 🔥 Smart Token Management
+- ⚡ Fast Account Rotation
+- 🔐 AES Encryption System
+- 📦 Protobuf Processing
+- 🚀 Async Batch Processing
+- 🛡 Rate Limit Protection
+- 📊 API Statistics
+- 🔄 Automatic Token Refresh
+
+---
 
 ## ✨ Features
 
-✅ Multiple Server Support
+### 🌍 Supported Servers
 
-    IND
-    BR
-    US
-    SAC
-    NA
-    BD
-    RU
+```
+IND
+BR
+US
+SAC
+NA
+BD
+RU
+```
 
-✅ Account Management
+### 📁 Account System
 
-    accounts_ind.txt
-    accounts_br.txt
-    accounts_bd.txt
+```
+accounts_ind.txt
+accounts_br.txt
+accounts_bd.txt
+```
 
-✅ Token Cache System\
-✅ Duplicate Prevention\
-✅ Retry System\
-✅ Concurrent Processing\
-✅ API Authentication\
-✅ Detailed Logging
+### System Features
 
-------------------------------------------------------------------------
+✅ Token Cache System  
+✅ Duplicate Prevention  
+✅ Retry Mechanism  
+✅ Concurrent Processing  
+✅ API Key Protection  
+✅ Detailed Logging  
+
+---
 
 ## 📂 Project Structure
 
-    FREE-FIRE-LIKE-BOT/
+```
+FREE-FIRE-LIKE-BOT/
 
-    ├── app.py
-    ├── like_pb2.py
-    ├── like_count_pb2.py
-    ├── uid_generator_pb2.py
-    ├── accounts_ind.txt
-    ├── accounts_br.txt
-    ├── accounts_bd.txt
-    ├── requirements.txt
-    └── README.md
+├── app.py
+├── like_pb2.py
+├── like_count_pb2.py
+├── uid_generator_pb2.py
+├── accounts_ind.txt
+├── accounts_br.txt
+├── accounts_bd.txt
+├── requirements.txt
+└── README.md
+```
 
-------------------------------------------------------------------------
+---
 
 ## ⚙️ Installation
 
-``` bash
+```bash
 git clone YOUR_REPO_LINK
 
 cd FREE-FIRE-LIKE-BOT
@@ -78,89 +92,96 @@ cd FREE-FIRE-LIKE-BOT
 pip install -r requirements.txt
 ```
 
-------------------------------------------------------------------------
+---
 
-## 📄 Account Format
+## 🚀 Start Server
 
-Example:
-
-    UID:PASSWORD
-
-------------------------------------------------------------------------
-
-## 🚀 Run Server
-
-``` bash
+```bash
 python app.py
 ```
 
-Server:
+Server will run:
 
-    http://YOUR_SERVER_IP:5001
+```
+http://YOUR_SERVER_IP:5001
+```
 
-------------------------------------------------------------------------
+---
 
-## 🌐 API Usage
+# 🌐 API Usage
 
-### Send Like
+## ❤️ Send Like
 
-    GET /api/like
+```
+GET /api/like
+```
 
 Example:
 
-    /api/like?uid=123456789&server_name=BD&key=ZIBON
+```
+/api/like?uid=123456789&server_name=BD&key=ZIBON
+```
 
-------------------------------------------------------------------------
+---
 
-### Stats
+## 📊 Statistics
 
-    /api/stats?key=ZIBON
+```
+GET /api/stats?key=ZIBON
+```
 
-------------------------------------------------------------------------
+---
 
-### Health
+## ❤️ Health Check
 
-    /api/health
+```
+GET /api/health
+```
 
-------------------------------------------------------------------------
+---
 
-## 🔐 Security
+# 🔐 Security
 
--   AES Encryption
--   API Key Protection
--   JWT Token System
--   Rate Limiting
--   Cache Management
+- AES Encryption
+- JWT Token System
+- API Authentication
+- Rate Limiting
+- Cache Management
 
-------------------------------------------------------------------------
+---
 
-## 👑 Developer Credit
+# 👑 Developer
 
-Developed By:
+<div align="center">
 
-**JOBAYAR AHMED**
+🔥 **JOBAYAR AHMED** 🔥
 
-Telegram Channel:
+<br>
 
-https://t.me/GHOST_OFC
+📢 Telegram Channel:
 
-------------------------------------------------------------------------
+<a href="https://t.me/GHOST_XMOD">
 
-## ⚠️ Disclaimer
+<img src="https://img.shields.io/badge/Telegram-GHOST_XMOD-blue?style=for-the-badge&logo=telegram">
+
+</a>
+
+</div>
+
+---
+
+# ⚠️ Disclaimer
 
 This project is for educational purposes only.
 
 Use responsibly.
 
-------------------------------------------------------------------------
+---
 
-```{=html}
-<p align="center">
-```
-⭐ Star the repository if you like it
+<div align="center">
 
-🔥 FREE FIRE LIKE BOT API v2.0 🔥
+⭐ Star this repository if you like it
 
-```{=html}
-</p>
-```
+🚀 FREE FIRE LIKE BOT API v2.0
+
+</div>
