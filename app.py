@@ -179,7 +179,7 @@ async def generate_jwt_token(uid, password):
     for attempt in range(CONFIG['RETRY_ATTEMPTS']):
         try:
             encoded_password = urllib.parse.quote(password)
-            url = f"https://ff-jwt-gen-api.lovable.app/api/public/token?uid={uid}&password={encoded_password}"
+            url = f"https://guest-jwt.vercel.app/token?uid={uid}&password={encoded_password}"
             
             async with aiohttp.ClientSession() as session:
                 async with session.get(url, timeout=CONFIG['REQUEST_TIMEOUT']) as response:
